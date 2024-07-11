@@ -1,7 +1,7 @@
 # Neural Single-Shot GHz FMCW Correlation Imaging
 ### [Project Page]() | [Paper]()
 
-[Cindy Pan](), Noah Walsh, [Yuxuan Zhang](https://www.alexyuxuanzhang.com/), [Zheng Shi](https://zheng-shi.github.io/), [Felix Heide](https://www.cs.princeton.edu/~fheide/)
+[Cindy Pan](), [Noah Walsh](), [Yuxuan Zhang](https://www.alexyuxuanzhang.com/), [Zheng Shi](https://zheng-shi.github.io/), [Felix Heide](https://www.cs.princeton.edu/~fheide/)
 
 If you find our work useful in your research, please cite:
 ```
@@ -24,10 +24,10 @@ conda activate single-shot-fmcw
 ```
 
 ## Data
-For data of the real-world scenes, their FMCW signals are located in the 'fmcw_signals/' folder and their phase values are store in the 'phase/' folder. The Synthetic test data presented in the paper are extracted from the Hypersim dataset [Hypersim RGB-D](https://github.com/apple/ml-hypersim). See 'dataloader/' folder for more details. 
+For data of the real-world scenes, their FMCW signals are located in the 'fmcw_signals/' folder available at http://ghz-fmcw.cs.princeton.edu and their phase values are store in the 'phase/' folder. The Synthetic test data presented in the paper are extracted from the Hypersim dataset [Hypersim RGB-D](https://github.com/apple/ml-hypersim). See 'dataloader/' folder for more details. 
 
 ## Inference
-To perform inference on real-world captures, please download the pre-trained model in the 'network/' folder, then you can run the 'optica_2023.ipynb' notebook in Jupyter Notebook. The notebook will process the measurements and display reconstructed depth.
+To perform inference on real-world captures, please download the pre-trained model in the 'network/' folder from http://ghz-fmcw.cs.princeton.edu, then you can run the 'optica_2023.ipynb' notebook in Jupyter Notebook. The notebook will process the measurements and display reconstructed depth.
 
 ## License
 Our code is licensed under BSL-1. By downloading the software, you agree to the terms of this License. 
