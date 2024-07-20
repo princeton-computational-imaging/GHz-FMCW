@@ -5,6 +5,20 @@
 
 If you find our work useful in your research, please cite:
 ```
+@article{HsinPan:24,
+author = {Cindy (Hsin) Pan and Noah Walsh and Yuxuan Zhang and Zheng Shi and Felix Heide},
+journal = {Opt. Express},
+keywords = {Frequency modulation; Imaging techniques; Phase contrast; Real time imaging; Three dimensional imaging; Virtual reality},
+number = {16},
+pages = {27835--27848},
+publisher = {Optica Publishing Group},
+title = {Neural single-shot GHz FMCW correlation imaging},
+volume = {32},
+month = {Jul},
+year = {2024},
+url = {https://opg.optica.org/oe/abstract.cfm?URI=oe-32-16-27835},
+doi = {10.1364/OE.519031},
+}
 ```
 
 This code repository includes code to reproduce the findings of the manuscript. The code will perform the following operations:
